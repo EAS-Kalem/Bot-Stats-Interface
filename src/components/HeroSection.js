@@ -13,7 +13,7 @@ function HeroSection() {
           Sign In
         </Button>
         <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={console.log('hey')}>
-          Sign Up <i className='far fa-play-circle' />
+          Sign Up 
         </Button>
       </div>
     </div>
