@@ -1,6 +1,13 @@
 import React from 'react';
 import './Cards.css';
+
 import CardItem from './CardItem';
+import Quiz from "../img/quiz.jpeg";
+import Facts from "../img/facts.png";
+import Quotes from "../img/quotes.jpeg";
+import Photos from "../img/images.jpeg";
+import Highscore from "../img/highscore.jpeg";
+import Senior from "../img/senior.jpeg";
 
 function Cards() {
   return (
@@ -11,35 +18,43 @@ function Cards() {
           <ul className='cards__items'>
     
             <CardItem
-              src='../../public/img/bot.jpg'
+              src= {Facts}
               text='Learn with quiz bot, quiz bot can give you facts randomly or you can choose a topic 💡'
-              label='Bot'
-              path='/services'
+              label='Quiz Bot'
+              path='/quiz'
             />
             <CardItem
-              src='my-app/src/components/graph.png'
+              src={Quiz}
               text='Challange your friends with quiz bot now! Get a random quiz or choose a quiz topic 🎮'
-              label='Bot'
+              label='Quiz Bot'
               path='/services'
             />
+
             <CardItem
-              src='./images/bot.jpeg'
+              src={Quotes}
               text='Nothing beats a good quote, Use quiz bots quote microservice to find great quotes 📝'
-              label='Bot'
+              label='Quiz Bot'
               path='/services'
             />
              <CardItem
-              src='../../images/bot.jpeg'
+              src={Photos}
               text='Quiz bot can also randomly generate images or pick images with a specific tag like "Cats" 🐈'
-              label='Bot'
+              label='Quiz Bot'
               path='/services'
             />
           </ul>
+          <h1>Quiz Bot Stats</h1>
           <ul className='cards__items'>
             
             <CardItem
-              src='graph.png'
-              text='Leaderboard '
+              src={Highscore}
+              text='Take a look at the leaderboard and see how you compare to the other trainees🏆'
+              label='Tracking'
+              path='/sign-up'
+            />
+            <CardItem
+              src={Senior}
+              text='Area for admins to look at all correct and incorrect answers for all trainees in the organisation📊'
               label='Tracking'
               path='/sign-up'
             />

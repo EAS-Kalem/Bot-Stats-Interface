@@ -9,6 +9,8 @@ import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import Quiz from './components/pages/Quiz';
+import Quotes from './components/pages/Quotes';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path='/leaderboard' element = { <Products /> } />
         <Route path='/users' element = { <Services /> } />
         <Route path='/login' element = { <SignUp /> } />
+        <Route path='/quiz' element = { <Quiz /> } />
+        <Route path='/quotes' element = { <Quotes /> } />
       </Routes>
       </Router>
       

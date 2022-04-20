@@ -6,8 +6,8 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>HOME</h1>
-      <p>EAS Quiz Bot Stats</p>
+      <h1>EAS Quiz Bot</h1>
+      <p>"The aspiring developers learning bot"</p>
       <div className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
           Sign In
