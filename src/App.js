@@ -6,7 +6,9 @@ import './App.css';
 
 
 import Home from './components/pages/Home';
-
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
@@ -15,7 +17,10 @@ function App() {
       <Navbar/>
     
       <Routes>
-        <Route path='/bob' exact component = { Home } />
+        <Route path='/' element = { <Home /> } />
+        <Route path='/leaderboard' element = { <Products /> } />
+        <Route path='/users' element = { <Services /> } />
+        <Route path='/login' element = { <SignUp /> } />
       </Routes>
       </Router>
       
