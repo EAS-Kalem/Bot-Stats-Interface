@@ -21,20 +21,20 @@ function Cards() {
               src= {Facts}
               text='Learn with quiz bot, quiz bot can give you facts randomly or you can choose a topic 💡'
               label='Quiz Bot'
-              path='/quiz'
+              path='/facts'
             />
             <CardItem
               src={Quiz}
               text='Challange your friends with quiz bot now! Get a random quiz or choose a quiz topic 🎮'
               label='Quiz Bot'
-              path='/services'
+              path='/quiz'
             />
 
             <CardItem
               src={Quotes}
               text='Nothing beats a good quote, Use quiz bots quote microservice to find great quotes 📝'
               label='Quiz Bot'
-              path='/services'
+              path='/quotes'
             />
              <CardItem
               src={Photos}
